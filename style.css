@@ -1,8 +1,19 @@
 .form {
+  width:40%;
 }
 #contract {
   border: 1px solid black;
 }
 #Name {
   flex-direction: column;
+}
+.div{
+  
+}
+.form label{
+  width: 40%;
+  display: inline-block;
+}
+.form_item{
+  height: 35px;  
 }
