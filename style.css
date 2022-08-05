@@ -8,7 +8,7 @@
 }
 #container{
   margin: 8px;
-  border: solid black);
+  border: solid black;
 }
 /* #header{
   margin: 5px;
@@ -29,12 +29,24 @@
 #Name {
   flex-direction: column;
 }
-.form1 label{
+/* .form1 label{
   width: 450px;
   display: inline-block;
-}
-.form_item{
+} */
+
+/* .form_item{
   height: 35px;  
+} */
+.form_item{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 8px;
+  
+}
+.form1{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-right: 30%;
 }
 legend{
   font-size: 30px;
