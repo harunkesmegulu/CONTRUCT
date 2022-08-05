@@ -1,5 +1,27 @@
-.form {
-  width:40%;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#title{
+  /* margin-top: ; */
+}
+#container{
+  margin: 8px;
+  border: solid black);
+}
+/* #header{
+  margin: 5px;
+  border: solid black;
+  padding: 3px;} */
+
+.form, .form1{
+  margin: 8px;
+  border: solid black;
+  padding: 1%;
+  }
+#checkbox_text{
+ 
 }
 #contract {
   border: 1px solid black;
@@ -7,13 +29,13 @@
 #Name {
   flex-direction: column;
 }
-.div{
-  
-}
-.form label{
-  width: 40%;
+.form1 label{
+  width: 450px;
   display: inline-block;
 }
 .form_item{
   height: 35px;  
+}
+legend{
+  font-size: 30px;
 }
